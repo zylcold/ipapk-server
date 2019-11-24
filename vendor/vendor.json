@@ -106,7 +106,7 @@
 		},
 		{
 			"checksumSHA1": "6ogw7iPnLDC8DmbkSrTD4tPNkLE=",
-			"path": "github.com/phinexdaz/ipapk",
+			"path": "github.com/zylcold/ipapk",
 			"revision": "c67994befb72ec0640f4a88f1ae6bd5880b8ffc4",
 			"revisionTime": "2017-09-03T08:49:49Z"
 		},
@@ -171,5 +171,5 @@
 			"revisionTime": "2017-02-08T14:18:51Z"
 		}
 	],
-	"rootPath": "github.com/phinexdaz/ipapk-server"
+	"rootPath": "github.com/zylcold/ipapk-server"
 }

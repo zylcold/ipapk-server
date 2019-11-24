@@ -2,17 +2,18 @@ package main
 
 import (
 	"context"
-	"github.com/gin-gonic/gin"
-	"github.com/phinexdaz/ipapk-server/conf"
-	"github.com/phinexdaz/ipapk-server/middleware"
-	"github.com/phinexdaz/ipapk-server/models"
-	"github.com/phinexdaz/ipapk-server/templates"
-	"github.com/phinexdaz/ipapk-server/utils"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/zylcold/ipapk-server/conf"
+	"github.com/zylcold/ipapk-server/middleware"
+	"github.com/zylcold/ipapk-server/models"
+	"github.com/zylcold/ipapk-server/templates"
+	"github.com/zylcold/ipapk-server/utils"
 )
 
 func Init() {

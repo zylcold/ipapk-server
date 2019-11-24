@@ -3,18 +3,18 @@ package middleware
 import (
 	"bytes"
 	"fmt"
-	"github.com/boombuler/barcode"
-	"github.com/boombuler/barcode/qr"
-	"github.com/gin-gonic/gin"
-	"github.com/phinexdaz/ipapk"
-	"github.com/phinexdaz/ipapk-server/conf"
-	"github.com/phinexdaz/ipapk-server/models"
-	"github.com/phinexdaz/ipapk-server/serializers"
-	"github.com/satori/go.uuid"
 	"image/png"
 	"net/http"
 	"path/filepath"
 	"time"
+
+	"github.com/boombuler/barcode"
+	"github.com/boombuler/barcode/qr"
+	"github.com/gin-gonic/gin"
+	"github.com/zylcold/ipapk"
+	"github.com/zylcold/ipapk-server/conf"
+	"github.com/zylcold/ipapk-server/models"
+	"github.com/zylcold/ipapk-server/serializers"
 )
 
 func Upload(c *gin.Context) {

@@ -3,8 +3,9 @@ package conf
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/phinexdaz/ipapk-server/utils"
 	"io/ioutil"
+
+	"github.com/zylcold/ipapk-server/utils"
 )
 
 var AppConfig *Config

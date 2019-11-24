@@ -8,7 +8,7 @@ IPA、APK内测应用分发服务，纯 golang 开发
 
 # 编译
 ```sh
-go get github.com/phinexdaz/ipapk-server
+go get github.com/zylcold/ipapk-server
 # for linux
 make linux
 # for mac
