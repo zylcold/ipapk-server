@@ -12,6 +12,7 @@ import (
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
 	"github.com/phinexdaz/ipapk"
+	"github.com/satori/go.uuid"
 	"github.com/zylcold/ipapk-server/conf"
 	"github.com/zylcold/ipapk-server/models"
 	"github.com/zylcold/ipapk-server/serializers"
